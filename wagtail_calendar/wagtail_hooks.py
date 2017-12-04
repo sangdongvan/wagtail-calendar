@@ -1,5 +1,5 @@
 from django.conf.urls import url, include
-from django.urls import reverse
+from django.core.urlresolvers import reverse
 from django.utils.dateparse import parse_datetime
 from django.utils.translation import ugettext_lazy as _
 from wagtail.wagtailadmin.menu import MenuItem
